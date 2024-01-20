@@ -1,14 +1,9 @@
-# Open
+# gas meter measurement
 Counts impulses from your gas meter using a ESP8266 with simple rred contact. 
 
 ## Supported sensors
 
 - All reed contacts
-
-## Supported temperature (humidity) sensors
-
-- DHT22-Sensor
-
 
 ## Wiring
 
