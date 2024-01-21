@@ -1,5 +1,5 @@
 # gas meter measurement
-Counts pulses from your gas meter using a ESP8266 with simple reed contact. The measured pulses are output on a separate website (without any Homeautomation central), data can be send via MQTT to your own MQTT broker or via HTTP to an own interface. Data is additinolly prepared as JSON message. In addition, it is possible to let prepare the data on www.bubux.de
+Counts pulses from your gas meter using a ESP8266 with a simple reed contact. The measured pulses are output on a genersted website (without any Homeautomation central), data can be send via MQTT to your own MQTT broker or via HTTP to an own interface. Data is additinolly prepared as JSON message. In addition, it is possible to let prepare the data on www.bubux.de
 
 ## Supported sensors
 
@@ -17,7 +17,7 @@ Find here ![Version 1030](https://github.com/diefenbecker/zisternenmessung/blob/
 
 Once the firmware has been flashed to the NodeMCU and everything is correctly wired, the sensor can be commissioned.
 
-The sensor tries to connect to a configured WLAN. If this does not work (which is the case during the first start-up), the sensor creates a WLAN access point with the name "WLAN-Gaszaehler" which should be found in the smartphone, for example. Connect to this WLAN.
+The sensor tries to connect to a configured WLAN. If this does not work (which is the case during the first start-up every time), the sensor creates a WLAN access point with the name "WLAN-Gaszaehler" which should be found in the smartphone, for example. Connect to this WLAN.
 
 Now call up the address http://192.168.4.1 in the browser of the connected device. This address is usually also displayed and linked in the connection settings of the connected WLAN. The configuration page of the sensor now opens.
 
@@ -30,12 +30,12 @@ If the "WLAN-gaszaehler" access point is still visible, the connection to the ho
 
 ## More information
 
-More information about installation etc. can be found on [http://blog.bubux.de/fuellstandmessung-der-zisterne-mittels-esp8266-nodemcu-und-ultraschallsensor/](http://blog.bubux.de/gasverbrauch-mit-esp8266-messen/)](http://blog.bubux.de/gasverbrauch-mit-esp8266-messen/). There are several articles that deal with the topic.
+More information about installation etc. can be found on [http://blog.bubux.de/gasverbrauch-mit-esp8266-messen/](http://blog.bubux.de/gasverbrauch-mit-esp8266-messen/)). There are several articles that deal with the topic.
 
 
 ## Use own api
 
-The measured impulses can be sent to your own interface via http post. A configurable URL is called with every measured impuls.
+The measured pulses can be sent to your own interface via http post. A configurable URL is called with every measured impuls.
 
 ## Use bubux api
 
