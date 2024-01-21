@@ -1,5 +1,5 @@
 # gas meter measurement
-Counts pulses from your gas meter using a ESP8266 with a simple reed switch. Supports gas meters with magnet with 0.1 m³ per pulse 0,01 m³ per pulse. The measured pulses are output on a genersted website (without any Homeautomation central), data can be send via MQTT to your own MQTT broker or via HTTP to an own interface. Data is additinolly prepared as JSON message. In addition, it is possible to let prepare the data on www.bubux.de.
+Counts pulses from your gas meter using a ESP8266 with a simple reed switch. Supports gas meters with magnet with 0.1 m³ per pulse 0,01 m³ per pulse. The measured pulses are output on a genersted website (without any Homeautomation central), data can be send via MQTT to your own MQTT broker or via HTTP to an own interface. Data is additinolly prepared as JSON message. In addition, it is possible to let prepare the data on www.bubux.de. There, calorific value and condition number are taken into account. Both are configuration values.
 
 ## Supported sensors
 
