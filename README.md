@@ -11,7 +11,7 @@ The reed contact must be connected to D4 and GND (or changed in the source code)
 
 ## Latest version already compiled
 
-Find here ![Version 1030](https://github.com/diefenbecker/zisternenmessung/blob/main/opencistern_1030.bin?raw=true) a already compiled version tested with NodeMCU and Wemos D1 mini
+Find here ![Version 1006](https://github.com/diefenbecker/opengasmeter/blob/main/gaszaehler/build/gaszaehler_1006.bin?raw=true) a already compiled version tested with NodeMCU and Wemos D1 mini
 
 ## Start-Up
 
