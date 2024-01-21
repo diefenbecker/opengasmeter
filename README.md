@@ -21,7 +21,7 @@ The sensor tries to connect to a configured WLAN. If this does not work (which i
 
 Now call up the address http://192.168.4.1 in the browser of the connected device. This address is usually also displayed and linked in the connection settings of the connected WLAN. The configuration page of the sensor now opens.
 
-Enter the SSID and the password of the home WLAN and click on "Save configuration". The other settings (cistern form, etc.) can be made later.
+Enter the SSID and the password of the home WLAN and click on "Save configuration". The other settings (start value etc.) can be made later.
 
 The sensor then restarts and attempts to connect to the home WLAN. If this was successful, the access point is no longer accessible and the sensor should have been assigned an IP address in the network. This can be looked up in the router.
 
