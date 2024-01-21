@@ -1,5 +1,5 @@
 # gas meter measurement
-Counts impulses from your gas meter using a ESP8266 with simple reed contact. The measured impulses are output on a separate website (without any Homeautomation central), data can be send via MQTT to your own MQTT broker or via HTTP to an own interface. Data is additinolly prepared as JSON message. In addition, it is possible to let prepare the data on www.bubux.de
+Counts pulses from your gas meter using a ESP8266 with simple reed contact. The measured pulses are output on a separate website (without any Homeautomation central), data can be send via MQTT to your own MQTT broker or via HTTP to an own interface. Data is additinolly prepared as JSON message. In addition, it is possible to let prepare the data on www.bubux.de
 
 ## Supported sensors
 
@@ -47,12 +47,14 @@ With the WebAPI, the data (impuls, MAC address, local IP and firmware version) i
   
 With /json behind the URL of the sensor, the measured values can be queried via JSON. For example, 192.168.178.49/json.
 This data can easily integrated in Home Assistant ( see https://www.home-assistant.io/integrations/rest/) 
+
+![JSON](https://github.com/diefenbecker/opengasmeter/blob/main/screenshots/gaszaehler_screenshot3.png)
   
 ## Use MQTT
 
 Send the measured data to an MQTT broker
 
-![MQTT Konfig]([https://github.com/diefenbecker/screenshots/gas_mqtt.PNG](https://github.com/diefenbecker/opengasmeter/blob/main/screenshots/gaszaehler_mqtt.png))
+![MQTT Konfig](https://github.com/diefenbecker/opengasmeter/blob/main/screenshots/gaszaehler_mqtt.png)
 
 
 ## Used libraries
@@ -85,10 +87,6 @@ To support this project, feel free to make a small donation. The donations go to
 
 ## Some screenshots of the webinterface with it´s configuration page
 
-![Startpage]([https://github.com/diefenbecker/zisternenmessung/blob/main/screenshots/startseite.PNG?raw=true](https://github.com/diefenbecker/opengasmeter/blob/main/screenshots/gaszaehler_screenshot1.PNG))
+![Startpage]([https://github.com/diefenbecker/opengasmeter/blob/main/screenshots/gaszaehler_screenshot1.PNG?raw=true)
 
-![Configuration page (1)](https://github.com/diefenbecker/zisternenmessung/blob/main/screenshots/konfig1.PNG?raw=true)
-
-![Configuration page (2)](https://github.com/diefenbecker/zisternenmessung/blob/main/screenshots/konfig2.PNG?raw=true)
-
-![Configuration page (3)](https://github.com/diefenbecker/zisternenmessung/blob/main/screenshots/konfig3.PNG?raw=true)
+![Configuration page (1)](https://github.com/diefenbecker/opengasmeter/blob/main/screenshots/gaszaehler_screenshot2.PNG?raw=true)
