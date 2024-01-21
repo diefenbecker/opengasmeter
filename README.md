@@ -30,7 +30,7 @@ If the "WLAN-gaszaehler" access point is still visible, the connection to the ho
 
 ## More information
 
-More information about installation etc. can be found on [http://blog.bubux.de/gasverbrauch-mit-esp8266-messen/](http://blog.bubux.de/gasverbrauch-mit-esp8266-messen/)). There are several articles that deal with the topic.
+More information about installation etc. can be found on [http://blog.bubux.de/gasverbrauch-mit-esp8266-messen/](http://blog.bubux.de/gasverbrauch-mit-esp8266-messen/). There are several articles that deal with the topic.
 
 
 ## Use own api
@@ -41,7 +41,7 @@ The measured pulses can be sent to your own interface via http post. A configura
 
 With the WebAPI, the data (impuls, MAC address, local IP and firmware version) is sent to www.bubux.de where a graphical evaluation of the gas consumption is prepared. This evaluation can be accessed via a link in the web interface of the respective sensor. No central home automation is necessary here.
 
-![Statistik]([https://github.com/diefenbecker/opengasmeter/screenshots/gas_auswertung.PNG](https://github.com/diefenbecker/opengasmeter/blob/main/screenshots/gas_auswertung.PNG))
+![Statistik](https://github.com/diefenbecker/opengasmeter/blob/main/screenshots/gas_auswertung.PNG)
 
 ## JSON
   
@@ -87,6 +87,6 @@ To support this project, feel free to make a small donation. The donations go to
 
 ## Some screenshots of the webinterface with it´s configuration page
 
-![Startpage]([https://github.com/diefenbecker/opengasmeter/blob/main/screenshots/gaszaehler_screenshot1.PNG?raw=true)
+![Startpage](https://github.com/diefenbecker/opengasmeter/blob/main/screenshots/gaszaehler_screenshot1.PNG?raw=true)
 
 ![Configuration page (1)](https://github.com/diefenbecker/opengasmeter/blob/main/screenshots/gaszaehler_screenshot2.PNG?raw=true)
